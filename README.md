@@ -26,6 +26,7 @@
     - `cd employeeList`
     - `composer install`
     - `php artisan serve`
+* Please note the url of the laravel server started
   
 ### End points
 - To list all the employees: (GET request)
@@ -39,4 +40,4 @@
 - To delete any existing employee: (DELETE request)
   ```http://<your_url>/api/employee/{employeeId}```
   
-** Please update <your_url> with the url that you will be recieving from the terminal while running `php artisa serve`
+** Please update <your_url> with the url that you will be receiving from the terminal while running `php artisan serve`
